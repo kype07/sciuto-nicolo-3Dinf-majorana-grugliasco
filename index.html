@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="style.css">
 <head>
   <title>Bootstrap Example</title>
   <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxn0A/8Z9AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMZ9AP/GfQD/xn0A/8Z9AP/GfQD/xn0A/8Z9AP/GfQD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxn0A/0EyHP+tbwX/xn0A/wAAAAAAAAAAAAAAAAAAAAAgHyMsxn0A/wPE0//GfQD/AAAAAAAAAAAAAAAAAAAAAMZ9AP8AAAAAysjH/8rIx//KyMf/ysjH/3UAxP91AMT/dQDE/3UAxP8AAAAAxn0A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMbEw/9CnB3/Qpwd/8rIx/9SDYH/BNL//wTS//8SeZH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKyMf/Qpwd/0KcHf8jIib/BNL//wyhw/8Jtdv/HTE5/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAysjH/0KcHf9CnB3/ysjH/xhQYP8E0v//Hiow/3UAxP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE9OUP9TUVP/U1FT/1NRU/9JEHH/WgqQ/2kFrf9wArv/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxe//BNL//wTS//8gT1D/ysjH/8TCwf8kHO3/ysjH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHi00/yAfI//CewH/IWtp/yAfI/8kHO3/ysjH/8rIx/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIgI//GfQD/xn0A/yFISf8kHO3/Ih2j/yQc7f8hHmr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE0v//BNL//yQc2/8E0v//ysjH/8rIx//KyMf/ysjH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATR/v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIB8j6wTS//8E0v//BNL//wTS//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHisx/yAfIykAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/n8AAPAPAADD4wAA0AsAAPAPAADwDwAA8A8AAPAPAADwDwAA8A8AAPAPAADwDwAA//8AAP7/AAD4PwAA/v8AAA==" rel="icon" type="image/x-icon">
@@ -19,7 +20,10 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="">AEREI</a>
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aerei.html">AEREI</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="storia.html">STORIA</a>
@@ -31,48 +35,15 @@
     </div>
   </div>
 </nav>
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="tornado.jpg" alt="tornado" class="d-block" style="width: 100%">
-        </div>
-      <div class="carousel-item">
-        <img src="https://www.difesaesicurezza.com/wp-content/uploads/aeronauticamilitare-calendario-2018-forzaarmataazzurra-italia-militari-difesa-aerei.jpg" alt="eurofighterTiphoon" class="d-block" style="width:100%">
+<!--VIDEO-->
+<div class="container-fluid">
+  <div >
+    <video  autoplay loop style="width: 100%; background-color: black;" muted>
+      <source src="Video-hp-AM.mp4" type="video/mp4">
+      <source src="Video-hp-AM.mp4" type="video/mp4">
+      </video>
       </div>
-      <div class="carousel-item">
-        <img src="https://www.concorsiaeronautica.it/wp-content/uploads/2016/09/requisiti-concorsi-ufficiali-aeronautica.jpg" alt="frecce tricolori" class="d-block" style="width:100%">
-      </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-  <!--CARD-->
-  <div class="container mt-3">
-    <div class="card" style="width:400px">
-      <img class="card-img-top" src="https://s.err.ee/photo/crop/2023/07/12/1994474h0a4ft4.jpg" alt="Card image" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">John Doe</h4>
-        <p class="card-text">L'eurofighterTiphoon è un aereo costruito dalle aziende principali di 4 stati Italia Germania Spagna e Inghilterra, è un caccia multiruolo ed è molto versatile e manovrabile. Vedi sotto per specifiche</p>
-        <a href="specificheEfa.html" class="btn btn-primary">SPECIFICHE</a>
-      </div>
-    </div>
     <br>
-
+</div>
 </body>
 </html>
